@@ -6,3 +6,25 @@
 .vc-bordered {
     border-color: #69fa94;
 }
+
+.vc-container .vc-day-content:hover:not(.is-disabled) {
+    color: gray;
+}
+
+.vc-container .vc-day-content.is-disabled {
+    color: gray;
+}
+
+.vc-container .vc-day-content.is-disabled:hover {
+    color: gray;
+}
+
+.vc-day.is-not-in-month *:not(.is-disabled) {
+    opacity: 1 !important;
+    color: gray;
+}
+
+.vc-day.is-not-in-month .is-disabled {
+    opacity: 1 !important;
+    color: gray;
+}
