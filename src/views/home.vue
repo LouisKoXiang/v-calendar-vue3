@@ -5,6 +5,11 @@
         <h1 className="text-3xl font-bold underline">Go To VMultipleDateSelect</h1>
       </div>
     </router-link>
+    <router-link to="/UseComponent">
+      <div class="mt-4">
+        <h1 className="text-3xl font-bold underline">Go To UseComponent</h1>
+      </div>
+    </router-link>
     <router-link to="/Popover">
       <div class="mt-4">
         <h1 className="text-3xl font-bold underline">Go To VPopover</h1>
