@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
     legacy({
-      targets: '>0.5%',
+      targets: ['Android >= 4.4', 'iOS >= 9', 'ie >= 11', 'Chrome>=30'],
       modernPolyfills: true
     })
   ],
