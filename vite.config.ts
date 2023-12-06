@@ -7,11 +7,11 @@ export default defineConfig({
   plugins: [
     vue(),
     legacy({
-      targets: ['Android >= 4.4', 'iOS >= 9', 'ie >= 11', 'Chrome>=30'],
+      targets: ['Android >= 4.4', 'iOS >= 12', 'ie >= 11', 'Chrome>=30'],
       modernPolyfills: true
     })
   ],
-  build: {
-    target: 'es2015'
-  }
+  // build: {
+  //   target: 'es2015'
+  // }
 })
