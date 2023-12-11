@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import './assets/main.css'
-import { setupCalendar, Calendar, DatePicker } from 'v-calendar'
+import { SetupCalendar, Calendar, DatePicker } from 'v-calendar'
 import 'v-calendar/dist/style.css';
 // import '/assets/vcalendar.css'
 
@@ -9,7 +9,7 @@ import router from './router'
 
 const app = createApp(App)
 
-app.use(setupCalendar, {})
+app.use(SetupCalendar, {})
 app.component('VCalendar', Calendar)
 app.component('VDatePicker', DatePicker)
 app.use(router)
