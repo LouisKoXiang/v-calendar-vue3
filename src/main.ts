@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import './assets/main.css'
 import { setupCalendar, Calendar, DatePicker } from 'v-calendar'
-import 'v-calendar/style.css'
-import './assets/vcalendar.css'
+import 'v-calendar/dist/style.css';
+// import '/assets/vcalendar.css'
 
 import App from './App.vue'
 import router from './router'

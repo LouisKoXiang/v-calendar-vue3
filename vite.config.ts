@@ -11,6 +11,9 @@ export default defineConfig({
       modernPolyfills: true
     })
   ],
+  server: {
+    host: '0.0.0.0'
+  }
   // build: {
   //   target: 'es2015'
   // }
